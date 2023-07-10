@@ -22,6 +22,8 @@
     background-position:center;
     background-repeat: no-repeat;
     text-align:center;
+    display:flex;
+    align-items: center;
     
 
 
@@ -49,4 +51,94 @@
 .digital{
     color:red;
     
+}
+.service-container{
+    height:100vh;
+    background-color: grey;
+    color:beige;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding:20px;
+}
+.icon{
+    width:70px;
+    margin-bottom:20px;
+
+}
+.box{
+    text-align:center;
+    width:150;
+    height:100px;
+    padding:50px;
+    background-color:white;
+    color:black;
+    border-radius:2px;
+}
+.service-description{
+    width:50%;
+
+}
+.two-box{
+    display:flex;
+    gap:3px;
+    margin:5px;
+}
+.author-img{
+    width:70px;
+    height:70px;
+    border-radius:35px;
+}
+.author-container{
+    display:flex;
+    gap:25px;
+    align-items:center;
+
+}
+.profile-container{
+    display: flex;
+    align-items:center;
+    gap:10px;
+    border-right:2px solid red;
+    padding-right:20px;
+}
+.phone{
+    display:flex;
+    align-items: center;
+}
+.appointment-container{
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    width:auto;
+    padding:20px;
+    background-color: red;
+    border-radius:10px;
+    margin-top:100px;
+    align-items: center;
+}
+.title{
+    text-align:center;
+    padding:10px;
+    margin:20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:5px 5px 4px grey;
+    
+}
+.cart{
+    height:300px;
+    width:300px;
+    background-color: beige;
+    box-shadow:5px 5px 8px 4px rgba(82, 57, 57,0.4);
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img{
+    width:100%;
+}
+.section{
+    background-color: darkslategrey;
+    display: flex;
+    margin:7px;
 }
